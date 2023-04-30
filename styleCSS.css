@@ -109,9 +109,50 @@ nav {
     text-align: center;
 }
 
+#tabel {
+    grid-column: 2 / -2;
+	height: 35vh;
+	background: #ffffff;
+	color: #425a2c;
+	display: inline-flex;
+	justify-content: left;
+	flex-direction: column;
+	width: 100%;
+}
+
+#tabel table {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+  }
+
+#tabel caption {
+	font-size: 1.7em;
+	font-weight: bold;
+	margin-bottom: 15px;
+  }
+  
+  #tabel th, td {
+	padding: 4px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+  }
+  
+
+  #tabel ul {
+	margin: 0;
+	padding: 5;
+  }
+  
+  #tabel li {
+	margin: 5px 0;
+	list-style-type: none;
+  }
+  
+
 #flavors {
 	grid-column: 2 / -2;
-	height: 20vh;
+	height: 7vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
